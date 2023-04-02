@@ -1,0 +1,7 @@
+source("two-fer/test_two-fer.R")
+source("test_two-fer.R")
+source("./two-fer/test_two-fer.R")
+source("two-fer/test_two-fer.R")
+getwd()
+setwd(paste0(getwd(), "/two-fer"))
+source("test_two-fer.R")
