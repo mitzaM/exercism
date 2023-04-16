@@ -1,0 +1,5 @@
+setwd("./raindrops")
+source("./test_raindrops.R")
+source("./test_raindrops.R")
+source("./test_raindrops.R")
+source("./test_raindrops.R")
