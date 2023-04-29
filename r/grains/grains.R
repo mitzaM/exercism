@@ -5,8 +5,5 @@ square <- function(n) {
 }
 
 total <- function() {
-  s <- 0
-  for (i in 1:64)
-    s <- s + square(i)
-  s
+  sum(mapply(square, 1:64))
 }
